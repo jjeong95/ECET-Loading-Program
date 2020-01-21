@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+        /* fixes issue of list of instructors and courses to strech the whole page vertically */
+        .dropdown-menu {
+            min-width: 3rem;
+            margin: 0 0;
+            text-align: center;
+        }
+        html {
+            min-height: 100%;
+            position: relative;
+        }
+        body {
+            overflow: visible;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #bottombar {
+            text-align: center;
+            padding: 10px;
+            background-color: navy;
+            color: white;
+            font-weight: bold;
+            float: left;
+            margin-top: 1%;
+            width: 100%;
+        }
+        .term-column {
+            margin-top: 20px;
+            width: 22.5%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-weight: 300;
+            border-color: #ddd;
+            border: solid 2px;
+            -webkit-box-sizing: border-box;
+            /* Safari/Chrome, other WebKit */
+            -moz-box-sizing: border-box;
+            /* Firefox, other Gecko */
+            box-sizing: border-box;
+            /* Opera/IE 8+ */
+            border-width: 1px;
+            height: 700px;
+            overflow-y: auto;
+            text-align: center;
+            float: left;
+            margin-right: 20px;
+            /* puts the instructor/courses columns apart with spaces */
+        }
+        #instructors {
+            margin-left: 20px;
+            /* puts the instructor/courses columns apart with spaces */
+        }
+        .class {
+            width: 33.333333333333%;
+            /* display:inline-block fixes the blank space on the right side of the classes */
+            display: inline-block;
+            float: left;
+        }
+        .instructorboxes {
+            font-weight:bold;
+            width: 100%;
+            background-color: #f0f0d8;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-right-style: solid;
+            border-width: 0.1px;
+            float: left;
+        }
+        .instructorName {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .classtitle {
+            display: inline-block;
+            background-color: white;
+            width: 100%;
+            border-top: solid black 1px;
+            font-weight: bold;
+        }
+        input[type='file'] {
+            display: inline;
+        }
+        #save {
+            color: black;
+        }
+        /* column header for classes fall,winter,short spring */
+        .column-header {
+            padding-left: 26%;
+            font-size: 24px;
+            background-color: #f5f5f5;
+            border-color: #ddd;
+            border-bottom-style: solid black;
+            font-weight: bold;
+            width: 70%;
+            float: left;
+        }
+        /* filter dropdown */
+        .dropdown {
+            background-color: #f5f5f5;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            width: 30%;
+            float: left;
+        }
+
+        /* filter button */
+
+        
+        /* modal css */
+        .modal-dialog .modal-content {
+            border-radius: 0.525rem;
+        }
+        #upload {
+            margin-left: 400px;
+        }
+        .modalAllocation {
+            margin: 0.2% 0.2%;
+            width: 32.333333333333%;
+            /* display:inline-block fixes the blank space on the right side of the classes */
+            display: inline-block;
+            
+            float: left;
+            border: solid 1px;
+        }
+        .courseNameModal {
+            background-color:#e0e0e0;
+            font-weight: bold;
+        }
+        .deleteButtonModal {
+            background-color:#e0e0e0;
+            font-weight: bold;
+        }
+
+        .courseTypeModal {
+            font-weight: 400;
+        }
+        /* header text for (instructrs + courses) columns */
+        .default-column-header {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        /* allocation box */
+        .allocationClass {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            width: 80%;
+            float: left;
+            border-color: white;
+            border-top: solid 1px;
+            border-right: solid 1px;
+            border-bottom: solid 1px;
+        }
+        .deleteButton {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            width: 20%;
+            float: right;
+            border-color: white;
+            border-top: solid 1px;
+            border-right: solid 1px;
+            border-bottom: solid 1px;
+        }
+        .allocationInstructor {
+            clear: both;
+            border-color: white;
+            border-right: solid 1px;
+            border-bottom: solid 1px;
+        }
+        .custom-file-input:lang(en)~.custom-file-label::after {
+            content: 'Save As';
+        }
+        /* new navbar css */
+        #save {
+            font-size: 1.05rem;
+            border: 0 #ccc;
+            border-top-right-radius: 0.225rem;
+            border-bottom-right-radius: 0.225rem;
+            text-transform: uppercase;
+            white-space: normal;
+            word-wrap: break-word;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            padding: 0.375rem 0.75rem;
+            float: left;
+        }
+        input[type='file'] {
+            display: none;
+            float: left;
+        }
+        .custom-file-upload {
+            font-size: 1rem;
+            border: 1px #ccc;
+            border-top-left-radius: 0.225rem;
+            border-bottom-left-radius: 0.225rem;
+            text-transform: uppercase;
+            white-space: normal;
+            display: inline-block;
+            font-weight: 400;
+            background-color: #eee;
+            display: inline-block;
+            padding: 0.4rem 0.75rem;
+            cursor: pointer;
+            font-family: Roboto, sans-serif;
+            float: left;
+        }
+        .custom-file-upload2 {
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            white-space: normal;
+            background-color: white;
+            display: inline-block;
+            font-weight: 400;
+            display: inline-block;
+            padding: 0.44rem 1.75rem;
+            cursor: pointer;
+            float: left;
+        }
+        .navbar-nav {
+            margin-top: 0.5%;
+            margin-left: 10%;
+        }
+        /*-- end of new navbar css --*/
+        .courseNameModal {
+            padding-left: 2%;
+            float: left;
+            width: 80%;
+            border-bottom: 0.1px solid;
+        }
+        .deleteButtonModal {
+            float: left;
+            padding-left: 7%;
+            width: 20%;
+            border-bottom: 0.1px solid;
+            border-left: 0.1px solid;
+        }
+        .courseTypeModal {
+            margin-left: 2%;
+            float: left;
+        }
+        .courseTermModal {
+            float: left;
+        }
+        /* filter button css */
+        
+        
+        .dropdown-menu a {
+            text-align: center;
+        }
+        
+    </style>
+    <title>Document</title>
+    <script>
+        /* ----- dict.js ------
+            Methods that other files use to access the data dictionary
+            the purpose of this file is so no one has to deal directly with the data dictionary
+        */
+        // The dictionary where all saved inputs are stored
+        let dictInit = new Object(),
+            dictChange = new Object();
+        /* ----- Entire dict Methods ------
+            A code section dedicate to the methods that change dictInit and dictChange
+            This code is used when the entire data dictionary needs a significant change
+        */
+        /**
+         * Copy Inital data dictionary to the Change data dictionary
+         * Needed for all other methods to function
+         */
+        const dictCreateChange = () => {
+            // IF Inital data dictionary not created THEN throw DataDictError
+            if (!validateEmptyObject(dictInit)) throw new DataDictError('Init');
+            // copy dictInit into dictChange
+            dictChange = JSON.parse(JSON.stringify(dictInit));
+        };
+        const dictUndoAll = () => {
+            dictCreateChange();
+        };
+        const dictSave = () => {
+            validateDictCreation();
+            dictInit = JSON.parse(JSON.stringify(dictChange));
+        };
+        /**
+         * gives back susection of dictChange
+         * @param  {String} dict  subsection of dictChange
+         * @param  {String} key   either name of a semester or the name of a key in the data dictionary
+         * @param  {*}      value the data that is within a parameter
+         * @return {Array}        list of courses
+         */
+        const getPKMaster = function (dict, key, value) {
+            validateDictCreation();
+            const returnPK = (dict, obj, PK) => {
+                switch (dict) {
+                    case 'courses':
+                    case 'enrollment':
+                    case 'provision':
+                        obj.course = PK;
+                        break;
+                    case 'names':
+                        obj.initials = PK;
+                        break;
+                }
+                return obj;
+            };
+            let dictReturn = [];
+            switch (arguments.length) {
+                case 0:
+                    return JSON.parse(JSON.stringify(dictChange));
+                default:
+                    for (const objkey in dictChange[dict])
+                        dictReturn.push(returnPK(dict, dictChange[dict][objkey], objkey));
+                    break;
+                case 2:
+                    for (const objkey in dictChange[dict])
+                        if (objkey == key)
+                            return returnPK(dict, dictChange[dict][objkey], objkey);
+                case 3:
+                    for (const objkey in dictChange[dict])
+                        if (dictChange[dict][objkey][key] == value)
+                            dictReturn.push(returnPK(dict, dictChange[dict][objkey], objkey));
+                    break;
+            }
+            return [...dictReturn];
+        };
+        const getCoursesBySemester = semester => {
+            let dictReturn = getPKMaster('courses');
+            dictReturn.forEach((element, i) => {
+                dictReturn[i].allocation = [];
+                getTeachingByCourse(element.course).forEach(element2 => {
+                    if (element2.term == semester) {
+                        dictReturn[i].allocation.push(element2);
+                    }
+                });
+                if (dictReturn[i].allocation.length == 0) {
+                    delete dictReturn[i];
+                }
+            });
+            return dictReturn;
+        };
+        /**
+         * gives back all courses
+         * @return  {Array} all courses
+         */
+        const getAllCourses = () => getPKMaster('courses');
+        /**
+         * gives back a course
+         * @param   {String}    course  course name
+         * @return  {Object}            a course
+         */
+        const getCourse = course => getPKMaster('courses', course);
+        /**
+         * gives back all courses that have a parameter with a specific type of data
+         * @param   {String}    key     the name of a key in the data dictionary
+         * @param   {*}         value   the data that is within the parameter
+         * @return  {Array}             all courses that have the data within the parameter
+         */
+        const getCoursesByParameter = (key, value) => getPKMaster('courses', key, value);
+        /**
+         * gives back all instructors
+         * @return  {Array} all instructors
+         */
+        const getAllInstructors = () => getPKMaster('names');
+        /**
+         * gives back instructor
+         * @param   {String}    initials    the initials of a specific instructor
+         * @return  {Object}                instructor
+         */
+        const getInstructorByInitials = initials => getPKMaster('names', initials);
+        /**
+         * gives back all instructors that have a parameter with a specific type of data
+         * @param   {String}    key     the name of a key in the data dictionary
+         * @param   {*}         value   the data that is within the parameter
+         * @return  {Array}             all instructors that have the data within the parameter
+         */
+        const getInstructorsByParameters = (key, value) => getPKMaster('names', key, value);
+        const getListMaster = function (dict, key, value) {
+            validateDictCreation();
+            let dictReturn = [];
+            switch (arguments.length) {
+                case 0:
+                    return JSON.parse(JSON.stringify(dictChange));
+                default:
+                    return JSON.parse(JSON.stringify(dictChange[dict]));
+                case 3:
+                    dictChange[dict].forEach((objkey, i) => {
+                        if (objkey[key] == value) {
+                            objkey.index = i;
+                            dictReturn.push(objkey);
+                        }
+                    });
+                    break;
+            }
+            return [...dictReturn];
+        };
+        const getTeachingByCourse = value => getListMaster('teaching', 'course', value);
+        const getCoursesByInitials = value => getListMaster('teaching', 'name', value);
+        const getTeachingByTerm = (term) => getListMaster('teaching', "term", term);
+        const getTeaching = () => getListMaster('teaching');
+        const getReleaseByName = value => getListMaster('release', 'name', value);
+
+        const setMaster = function (dict, PK, key, value) {
+            validateDictCreation();
+            dictChange[dict][PK][key] = value;
+        };
+        const updateCoursesInstructor = (index, initials) => setMaster("teaching", index, "name", initials);
+        /* ===== validate.js =====
+            Checks to validate variables that are parsed through from other files
+            this is used when you need to validate an input
+        */
+        /**
+         * Produces Error if data dictionary does not exist
+         * @param   {String}    dict    The Name of the data dictionary that doesn't exist 
+         */
+        class DataDictError extends ReferenceError {
+            constructor(dict) {
+                super(dict + " Dictionary not created.\nLookup error.solution");
+                switch (dict) {
+                    case "Change":
+                    case "dictChange":
+                        this.solution = "Call dictCreateChange()";
+                        break;
+                    case "Init":
+                    case "dictInit":
+                        this.solution = "Create the variable dictInit";
+                        break;
+                    default:
+                        this.solution = "Unknown";
+                        break;
+                }
+            }
+        }
+        /**
+        * Throws error if Inital data dictionary or Change data dictionary not initialized
+        */
+        const validateDictCreation = () => {
+            if (!validateEmptyObject(dictInit))
+                throw new DataDictError("Init");
+            if (!validateEmptyObject(dictChange))
+                throw new DataDictError("Change");
+        };
+        /**
+        * Evaluates whether an object is empty or not
+        * @param   {Object}    obj Object to be evaluated
+        * @returns {Boolean}       False for empty, True for not
+        */
+        const validateEmptyObject = obj => {
+            for (let key in obj) {
+                if (obj.hasOwnProperty(key))
+                    return true;
+            }
+            return false;
+        };
+    </script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/js/mdb.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+        rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Loads JQueryUI CDN -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script type="text/javascript">window.onbeforeunload = () => "All unsaved changes will be lost. Are you sure you'd like to exit?";</script>
+
+</head>
+
+<body>
+    <!-- Modal Injection -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 id="modalHead" class="modal-title">Modal Header</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="modalText"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">ELP</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <!-- <li class="nav-item">
+          <a class="nav-link">Add Instructor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Add Course</a>
+          </li> -->
+                <li class="nav-item" id="upload">
+
+                    <label for="file-upload" class="custom-file-upload">
+                        <i class="fa fa-cloud-upload"></i> Open
+                    </label>
+
+                    <input id="file-upload" type="file" onchange="load(this.files[0])" />
+
+                    <label for="file-upload" class="custom-file-upload2">
+                        <input class="fa fa-cloud-upload" type="text" id="fileName">
+                    </label>
+                    <input id="file-upload" type="file" onchange="load(this.files[0])" />
+
+                    <input type="button" id="save" value="Save As" />
+                    <a href="#" id="savelink"></a>
+
+                    </label>
+        </div>
+        </li>
+        </ul>
+        </div>
+        <!-- Collapsible content -->
+    </nav>
+    <!--/.Navbar-->
+    <!-- <div id="topbar">
+      <input type="file" onchange="load(this.files[0])" />
+      <input type="button" id="save" value="Save" />
+      <a href="#" id="savelink"></a>
+    </div> -->
+
+    <div class="term-column" id="instructors">
+        <div class="default-column-header">Instructors</div>
+    </div>
+
+    <div class="term-column" id="fallterm">
+        <div class="default-column-header">Fall Term</div>
+    </div>
+
+    <div class="term-column" id="winterterm">
+        <div class="default-column-header">Winter Term</div>
+    </div>
+
+    <div class="term-column" id="shortspringterm">
+        <div class="default-column-header">Short Spring Term</div>
+    </div>
+
+
+
+    <div class="navbar navbar-expand-lg navbar-dark primary-color" id="bottombar">
+        ELP (C)
+    </div>
+</body>
+<script>
+/* This file loads all data. This file should be placed at the end of
+the HTML file in order for all the divs to load, otherwise you will get
+a null exception when trying to append DOM objects to divs defined in HTML.
+The meat of this file happens in refreshData, where the draggable and
+droppable methods are assigned, any currently attached child nodes
+to the header divs are deleted, and the screen is re-drawn. */
+    /*
+    load loads a new json file into the dictionary object and calls refresh data
+    */
+    const load = file => {
+        let r = new FileReader();
+        r.onload = function (e) {
+            dictInit = JSON.parse(e.target.result);
+
+            dictCreateChange();
+            /* Updates the data when the file first loads */
+            refreshData();
+        };
+        fname = file.name;
+        r.readAsText(file);
+
+        let save = fname.split('.');
+        document.getElementById('fileName').value = fname;
+    }
+    /*
+    refresh data populates the scene when the data is changed
+    */
+    function refreshData() {
+        document.getElementById('instructors').innerHTML = "";
+        document.getElementById('fallterm').innerHTML = "";
+        document.getElementById('winterterm').innerHTML = "";
+        document.getElementById('shortspringterm').innerHTML = "";
+
+        $(function () {
+            $('.dragDesignation, .instructorDragDesignation').draggable({
+                appendTo: 'body',
+                zIndex: 1,
+                cursor: 'pointer',
+                containment: $('document'),
+                helper: 'clone',
+                start: function (event, ui) {
+                    $(ui.helper).css('width', '13%');
+                    $(this).draggable('instance').offset.click = {
+                        left: Math.floor(ui.helper.width() / 2),
+                        top: Math.floor(ui.helper.height() / 2)
+                    };
+                }
+            });
+
+            $('.droppedCourse').droppable({
+                drop: function (event, ui) {
+                    /* Breaks out the id of dragged div into useable parts for updateCoursesInstructor method */
+                    var courseDetails = ui.draggable.attr('id');
+                    var dragDetails = ui.draggable.attr('id').split('-');
+                    var check = dragDetails[0];
+                    var idInits = $(this).attr('id');
+                    move('progress-' + idInits, coursesBarProgress);
+                    if (!isNaN(check)) {
+                        updateCoursesInstructor(courseDetails, idInits);
+                        refreshData();
+                    }
+                    var coursesBarProgress = getCoursesByInitials(idInits).length * 16.6;
+                    /* Updates the progress bar each time a drop happens */
+                }
+            });
+
+            //new method created
+            $('.droppedInstructor').droppable({
+                drop: function (event, ui) {
+                    /* Breaks out the id of dragged div into useable parts for updateCoursesInstructor method */
+                    var courseDetails = $(this).attr('id');
+                    var dragDetails = ui.draggable.attr('id').split('-');
+
+                    var check = dragDetails[0];
+                    console.log(dragDetails[0]);
+                    if (isNaN(check)) {
+                        updateCoursesInstructor(courseDetails, $(ui.draggable).attr('id'));
+                        refreshData();
+                    }
+                }
+            });
+        });
+        ["instructors", "fall", "winter", "short spring"].forEach(semester => {
+            let HeaderBox = document.createElement('div'),
+                Header = document.createElement('div'),
+                dropdown = document.createElement('div'),
+                dropdownButton = document.createElement('button'),
+                dropdownMenu = document.createElement('ul'),
+                dropdownAll = document.createElement('a'),
+                dropdownListAll = document.createElement('li'),
+                bigElement;
+
+            HeaderBox.className = 'HeaderBox';
+
+            Header.innerHTML = semester.split(' ').length == 2 ? "Spring" : semester[0].toUpperCase() + semester.slice(1);
+            Header.setAttribute('class', 'column-header');
+
+            dropdown.className = 'dropdown';
+
+            dropdownButton.className = 'btn btn-primary dropdown-toggle';
+            dropdownButton.setAttribute("style","padding: 5.7% 20%; margin: 0px;");
+            dropdownButton.type = 'button';
+            dropdownButton.setAttribute('data-toggle', 'dropdown');
+
+            dropdownMenu.className = 'dropdown-menu';
+            dropdownMenu.setAttribute('style','min-width:3rem; text-align:center');
+
+            dropdownAll.innerHTML = 'All';
+
+            dropdownListAll.onclick = () => refreshData();
+            dropdownListAll.appendChild(dropdownAll);
+
+            dropdownMenu.appendChild(dropdownListAll);
+
+            dropdown.appendChild(dropdownMenu);
+            dropdown.appendChild(dropdownButton);
+
+            HeaderBox.appendChild(Header);
+            HeaderBox.appendChild(dropdown);
+
+            switch (semester) {
+            case "instructors":
+                let dropdownListOL = document.createElement('li'),
+                    dropdownOL = document.createElement('a'),
+                    dropdownListUL = document.createElement('li'),
+                    dropdownUL = document.createElement('a'),
+                    dropdownListGL = document.createElement('li'),
+                    dropdownGL = document.createElement('a');
+                
+                bigElement = document.getElementById(semester);
+                bigElement.appendChild(HeaderBox);
+
+                dropdownOL.innerHTML = 'OL';
+                dropdownListOL.onclick = () => getAllInstructors().forEach(i => {
+                    document.getElementById(i.initials).style.display = 'inline-block';
+                    if (document.getElementById('progress-' + i.initials).style.backgroundColor != 'rgb(0, 0, 255)') 
+                        document.getElementById(i.initials).style.display = 'none';
+                });
+                dropdownListOL.appendChild(dropdownOL);
+                dropdownMenu.appendChild(dropdownListOL);
+
+                dropdownUL.innerHTML = 'UL';
+                dropdownListUL.onclick = () => getAllInstructors().forEach(i => {
+                    document.getElementById(i.initials).style.display = 'inline-block';
+                    if (document.getElementById('progress-' + i.initials).style.backgroundColor != 'rgb(255, 0, 0)') 
+                        document.getElementById(i.initials).style.display = 'none';
+                });
+                dropdownListUL.appendChild(dropdownUL);
+                dropdownMenu.appendChild(dropdownListUL);
+
+                dropdownGL.innerHTML = 'GL';
+                dropdownListGL.onclick = () => getAllInstructors().forEach(i => {
+                    document.getElementById(i.initials).style.display = 'inline-block';
+                    if (document.getElementById('progress-' + i.initials).style.backgroundColor != 'rgb(0, 100, 0)') 
+                        document.getElementById(i.initials).style.display = 'none';
+                });
+                dropdownListGL.appendChild(dropdownGL);
+                dropdownMenu.appendChild(dropdownListGL);
+
+                getAllInstructors().forEach(function (element) {
+                    let instructorDiv = document.createElement('div'),
+                        instructorName = document.createElement('div'),
+                        myProgress = document.createElement('div'),
+                        myBar = document.createElement('div'),
+                        coursesBarProgress = getCoursesByInitials(element.initials).length * 16.6;
+
+                    instructorDiv.setAttribute('id', element.initials);
+                    instructorDiv.setAttribute('class', 'instructorboxes droppedCourse instructorDragDesignation');
+                    instructorDiv.style.display = 'inline-block';
+                    instructorDiv.onclick = () => modalData(element.initials);
+                    instructorDiv.setAttribute('data-toggle', 'modal');
+                    instructorDiv.setAttribute('data-target', '#myModal');
+                    instructorDiv.append(instructorName);
+                    instructorName.innerHTML = element['First Name'] + ' ' + element['Last Name'];
+                    instructorName.setAttribute('class', 'instructorName');
+                    bigElement.appendChild(instructorDiv);
+
+
+                    myProgress.setAttribute('style', 'width:97%; background-color:white; border-radius:20px; margin-left:1%; margin-bottom:1%');
+                    myBar.setAttribute('style', 'width:0; height: 20px; background-color: #4caf50; border-radius: 20px; color:white;');
+                    myBar.setAttribute('id', 'progress-' + element.initials);
+                    myProgress.appendChild(myBar);
+                    document.getElementById(element.initials).appendChild(myProgress);
+                    /* Loads the div bars onload, this will get triggered on drop as well because of the refresh method */
+                    move('progress-' + element.initials, coursesBarProgress);
+                });
+                break;
+            default:
+                let dropdownListUC = document.createElement('li'),
+                    dropdownUC = document.createElement('a');
+
+                bigElement = document.getElementById(`${semester.split(' ').join('')}term`);
+                bigElement.appendChild(HeaderBox);
+
+                dropdownUC.innerHTML = 'UC';
+                dropdownListUC.onclick = () => {
+                    let courseList = getTeachingByTerm(semester);
+                    courseList.forEach(teaching => document.getElementById(semester + teaching.course).style.display = 'none');
+                    courseList.forEach(teaching => !(teaching.name == 'UC') ? document.getElementById(String(teaching.index)).style.display = 'none' : document.getElementById(semester + teaching.course).style.display = 'inline-block');
+                };
+                dropdownListUC.appendChild(dropdownUC);
+                dropdownMenu.appendChild(dropdownListUC);
+                
+                getCoursesBySemester(semester).forEach(element => {
+                    let coursename = document.createElement('div'),
+                        title = document.createElement('div');
+                    
+                    coursename.id = element.course;
+
+                    title.innerHTML = element['course'];
+                    title.setAttribute('class', 'classtitle');
+                    title.setAttribute('id', semester + element.course);
+
+                    bigElement.appendChild(title);
+
+                    element.allocation.forEach(classElement => {
+                        let allocationBox = document.createElement('div'),
+                            allocationClass = document.createElement('div'),
+                            deleteButton = document.createElement('div'),
+                            allocationTitle = document.createElement('div'),
+                            allocationInstructor = document.createElement('div');
+
+                        allocationBox.setAttribute('class', 'allocationBox');
+
+                        allocationClass.className = 'allocationClass bg-light';
+                        allocationClass.innerHTML = classElement['type'];
+                        
+                        deleteButton.setAttribute('class', 'deleteButton bg-light');
+                        deleteButton.setAttribute('id', `${classElement.index}-`);
+                        deleteButton.style.cursor = 'pointer';
+                        deleteButton.innerHTML = 'x';
+                        deleteButton.onclick = () => {
+                            updateCoursesInstructor(deleteButton.id.split("-")[0], 'UC');
+                            refreshData();
+                        };
+
+                        allocationTitle.setAttribute('class', 'allocationTitle');
+                        allocationTitle.appendChild(allocationClass);
+                        allocationTitle.appendChild(deleteButton);
+
+                        allocationInstructor.className = 'allocationInstructor';
+                        allocationInstructor.innerHTML = classElement['instructor'];
+
+                        /* checks if the instructor is null , if so it will display null 
+                        Bug!
+                        Trying to keep it as blank is having an issue,
+                        for allocationInstructor.innerHTML = ""; does not populate a blank orange square.
+                        And allocationInstructor.innerHTML = "string" + ""; populates it with an orange square.
+                        allocationInstructor.innerHTML = "" + ""; does not work.
+                        */
+                        classElement.name != 'UC' ? allocationInstructor.innerHTML = classElement.name : allocationInstructor.innerHTML = '_ ';
+                        
+                        allocationBox.appendChild(allocationTitle);
+                        allocationBox.appendChild(allocationInstructor);
+
+                        allocationBox.setAttribute('class','class droppedInstructor dragDesignation ui-widget-content');
+                        allocationBox.id = classElement.index;
+
+                        bigElement.appendChild(allocationBox);
+                    });
+                });
+                    break;
+            }
+        });
+    }
+    /*
+    modalData creates the modal for the instructor
+    */
+    function modalData(initials) {
+        var instructor = getInstructorByInitials(initials);
+        const modalHeader = document.getElementById('modalHead');
+        modalHeader.innerHTML =
+            instructor['First Name'] + ' ' + instructor['Last Name'];
+        document.getElementById('modalText').innerHTML = '';
+        console.log(initials);
+        var uniqueCourses = {};
+        /* Returns an array of courses by term. It contains an allocations object inside which hold ALL courses,
+        and can be duplicated several times if they have several designations in a course */
+        getCoursesByInitials(initials).forEach(function (classElement) {
+            if (uniqueCourses[classElement.course] == classElement.term) {
+                /* This is a guard which prevents a course from pering iterated through multiple times when
+                an instructor teaches multiple designations */
+            } else {
+                /* Add a unique course to uniqueCourses */
+                uniqueCourses[classElement.course] = classElement.semester;
+
+                var classboxModal = document.createElement('div');
+
+                var courseNameModal = document.createElement('div');
+                courseNameModal.setAttribute('class', 'courseNameModal');
+
+                var deleteButtonModal = document.createElement('div');
+                deleteButtonModal.setAttribute('class', 'deleteButtonModal');
+
+                var courseTypeModal = document.createElement('div');
+                courseTypeModal.setAttribute('class', 'courseTypeModal');
+                var courseTermModal = document.createElement('div');
+                courseTermModal.setAttribute('class', 'courseTermModal');
+
+                courseNameModal.innerHTML = classElement['course'];
+    
+                deleteButtonModal.innerHTML = 'x';
+                deleteButtonModal.style.cursor = 'pointer';
+                deleteButtonModal.onclick = () => {
+                    classboxModal.style.display = 'none';
+                    updateCoursesInstructor(classElement.index, 'UC');
+                    refreshData();
+                };
+
+                courseTypeModal.innerHTML =
+                    classElement['type'] + ' ' + classElement['term'];
+
+                classboxModal.appendChild(courseNameModal);
+                classboxModal.appendChild(deleteButtonModal);
+                classboxModal.appendChild(courseTypeModal);
+
+                // classbox.innerHTML =
+                //   classElement.course + '-' + classElement.type + '-' + classElement.term;
+                classboxModal.setAttribute('class', 'modalAllocation');
+                document.getElementById('modalText').appendChild(classboxModal);
+            }
+        });
+        // var deleteButton = document.createElement('div');
+        // deleteButton.setAttribute('class', 'deleteButton');
+        // deleteButton.setAttribute('id', classElement.index);
+        // deleteButton.innerHTML = 'x';
+
+        // var courseDetailsForDeletion = deleteButton.id;
+        // deleteButton.onclick = function () {
+        //     updateCoursesInstructor(courseDetailsForDeletion, 'UC');
+        //     refreshData();
+        // };
+        // document.getElementById('modalText').appendChild(deleteButton);
+    }
+    /* Saves the current data variable as a JSON file */
+    var fname = 'data.json';
+    window.onload = function () {
+        $('#save').click(download);
+    };
+    function download() {
+        dictSave();
+        fname = document.getElementById('fileName').value;
+        $('#savelink')
+            .attr(
+                'href',
+                'data:application/plain;charset=utf-8,' +
+                encodeURIComponent(JSON.stringify(dictChange))
+            )
+            .attr('download', fname)
+            .get(0)
+            .click();
+    }
+
+    /* Moves progress bar based on instructor's courseload. Assumptions: 6 courses are max, all courses are weighted equally.
+     */
+    function move(elem, targetWidth) {
+        var targetProgress = document.getElementById(elem);
+        // Each course is 16.6666% width, therefore if above 99, just fill the bar
+        var instructorInits = targetProgress.id.split('-')[1];
+        var contactHoursAvg;
+        //Compares names with initials
+        calc(getPKMaster()).forEach(function (element) {
+            if (element.initials === instructorInits) {
+                contactHoursAvg = element.hours;
+            }
+        });
+        var totalHoursByRole = getInstructorByInitials(instructorInits).role == 'i' ? 15 : 20;
+        var percentageOfExpectedHours = contactHoursAvg / totalHoursByRole;
+
+        if (percentageOfExpectedHours < 0.8) {
+            /* Red */
+            targetProgress.style.backgroundColor = '#FF0000';
+        } else if (
+            percentageOfExpectedHours >= 0.8 &&
+            percentageOfExpectedHours < 1.0
+        ) {
+            /* Green */
+            targetProgress.style.backgroundColor = '#006400';
+        } else if (percentageOfExpectedHours >= 1.0) {
+            /* Blue */
+            targetProgress.style.backgroundColor = '#0000FF';
+        }
+
+        // Sets the inner HTML value
+        targetProgress.innerHTML =
+            contactHoursAvg.toFixed(2) +
+            '/' +
+            totalHoursByRole +
+            ' = ' +
+            Math.round(percentageOfExpectedHours * 100) +
+            '%';
+
+        // Assigns the bar width, if its over 100%, sets it at 100% to prevent the divs from breaking
+        targetProgress.style.width = Math.round(percentageOfExpectedHours * 100) + "%";
+        if (targetProgress.style.width.split("%")[0] >= 100) {
+            targetProgress.style.width = "100%";
+        }
+    }
+    /*
+    calc calculates the average hours an instructor had
+    */
+    function calc(data) {
+        // compare two items to order displayed loading data
+
+        let order = {
+            lec: 0,
+            lab: 1,
+            tut: 2,
+            comp: 3,
+            rel: 4,
+            ot: 5,
+            leave: 6,
+            note: 7
+        };
+
+        // add missing enrollment & instructor data
+
+        data.teaching
+            .filter(t => !(t.course in data.enrollment))
+            .forEach(t => (data.enrollment[t.course] = [0, 0, 0]));
+
+        data.teaching
+            .filter(t => !(t.name in data.names))
+            .forEach(
+                t =>
+                    (data.names[t.name] = {
+                        'First Name': t.name,
+                        'Last Name': '',
+                        role: 'z'
+                    })
+            );
+
+        // instructor full name
+
+        Object.values(data.names).forEach(
+            n => (n.fullname = n['First Name'] + ' ' + n['Last Name'])
+        );
+
+        const hoursfield = {
+            lec: 'Designlecwk',
+            lab: 'Designlabwk',
+            tut: 'Designtutwk'
+        };
+        const termlen = [15, 15, 4],
+            termlensum = 34;
+
+        // normalize weekly hours by course length and fraction taught
+
+        for (let t of data.teaching) {
+            let c = data.courses[t.course];
+            let h = c[hoursfield[t.type]];
+            let r =
+                c.Designtermlen /
+                termlen[t.term === 'fall' ? 0 : t.term === 'winter' ? 1 : 2];
+            t.hours = h * r * t.percent;
+            t.descr =
+                `${h} hrs/wk` +
+                (r != 1
+                    ? ` * ${c.Designtermlen}/${
+                    termlen[t.term === 'fall' ? 0 : t.term === 'winter' ? 1 : 2]
+                    } (wks/wks)`
+                    : '') +
+                (t.percent != 1 ? ` * ${t.percent * 100} %` : '');
+        }
+
+        // course compensation items
+
+        let comp = [];
+
+        function addcomp(n, t, c, h, s) {
+            comp.push({
+                name: n,
+                term: t,
+                type: 'comp',
+                course: c,
+                hours: h,
+                descr: s
+            });
+        }
+
+        const compnew = [
+            [data.comp.lec_notes_indicator, data.comp.lec_notes_pcnt, 'lecture with'],
+            [
+                data.comp.lec_nonotes_indicator,
+                data.comp.lec_nonotes_pcnt,
+                'lecture without'
+            ],
+            [data.comp.lab_notes_indicator, data.comp.lab_notes_pcnt, 'lab with'],
+            [data.comp.lab_nonotes_indicator, data.comp.lab_nonotes_pcnt, 'lab without']
+        ];
+
+        // compute compensation for new and evening courses
+
+        for (let t of data.teaching) {
+            if (t.new) {
+                let i = compnew.find(v => t.new == v[0]);
+                addcomp(t.name, t.term, t.course, t.hours * i[1], `new ${i[2]} notes`);
+            }
+
+            if (data.provision[t.course][t.term].evening) {
+                let k = data.comp.Offhours_extra_pcnt;
+                addcomp(
+                    t.name,
+                    t.term,
+                    t.course,
+                    t.hours * k,
+                    'evening/weekend ${t.type}'
+                );
+            }
+        }
+
+        // group teaching items by instructor and term to compute
+        // per-term course-count compensation
+
+        let grouped = groupby(data.teaching, 'name').map(v => groupby(v, 'term'));
+
+        const compcoursecnt = {
+            lec: [data.comp.I_Coursecount_Threshold, data.comp.I_Coursecount_extrahrs],
+            lab: [data.comp.AI_Coursecount_Threshold, data.comp.AI_Coursecount_extrahrs]
+        };
+
+        for (let i in grouped)
+            for (let j in grouped[i]) {
+                let courses = grouped[i][j];
+                let name = courses ? courses[0].name : '';
+                let n, m, k;
+
+                // course-count compensation
+                for (let type of ['lec', 'lab']) {
+                    n = courses.filter(t => t.type == type).length;
+                    [m, k] = compcoursecnt[type];
+                    if (n > m) addcomp(name, j == 0 ? 'fall' : j == 1 ? 'winter' : 'short spring', null, (n - m) * k, `${type} count: ${n}`);
+                }
+
+                // headcount compensation
+                n = courses
+                    .filter(t => t.type == 'lec')
+                    .reduce(
+                        (r, t) =>
+                            r +
+                            data.enrollment[t.course][
+                            t.term === 'fall' ? 0 : t.term === 'winter' ? 1 : 2
+                            ],
+                        0
+                    );
+                [m, k] = [
+                    data.comp.lec_seats_base_level,
+                    data.comp.lec_seats_comp_factor
+                ];
+                if (n > m) addcomp(name, j == 0 ? 'fall' : j == 1 ? 'winter' : 'short spring', null, (n - m) * k, `total enrollment: ${n}`);
+            }
+
+        // scale teaching contact hours (but not compensation) by
+        // number of sets
+
+        for (let t of data.teaching) t.hours = t.hours * t.sets;
+
+        // combine teaching, release and compensation tasks
+
+        let tasks = [].concat(data.teaching, data.release, comp);
+
+        // group all tasks by instructor and term
+
+        tasks = groupby(tasks, 'name').map(v => groupby(v, 'term'));
+
+        // sum hours in each term and find the average
+
+        for (let inst of tasks) {
+            for (let term of inst)
+                term.hours = term.reduce((r, v) => (v.hours ? r + v.hours : r), 0);
+            inst.hours =
+                inst.reduce((r, v, i) => (v.hours ? r + v.hours * termlen[i] : r), 0) /
+                termlensum;
+            inst.name = data.names[inst.flat(2)[0].name].fullname;
+            inst.initials = inst.flat(2)[0].name;
+        }
+
+        return tasks;
+    }
+
+    // Read data from a JSON file and display instructor loading.
+
+    function loaddata(file) {
+        var fr = new FileReader();
+        fr.onload = e => {
+            showobject('Loading', calc(JSON.parse(e.target.result)));
+        };
+        fr.readAsText(file);
+    }
+
+    function groupby(a, k) {
+        return Object.values(
+            a.reduce((r, v) => ((r[v[k]] || (r[v[k]] = [])).push(v), r), {})
+        );
+    }
+
+    /* Filters the */
+
+    function filter(element) { }
+</script>
+
+</html>

@@ -1,0 +1,7763 @@
+{
+	"names": {
+		"AM": {
+			"role": "ai",
+			"First Name": "Andrew",
+			"Last Name": "Mokrzycki",
+			"Ohrs": 0,
+			"PrevAve2": null
+		},
+		"CG": {
+			"role": "ai",
+			"First Name": "Chris",
+			"Last Name": "Goetz",
+			"Ohrs": 0,
+			"PrevAve2": null
+		},
+		"RS": {
+			"role": "ai",
+			"First Name": "Ron",
+			"Last Name": "Stewart",
+			"Ohrs": 0,
+			"PrevAve2": null
+		},
+		"SM": {
+			"role": "ai",
+			"First Name": "Steven",
+			"Last Name": "McClain",
+			"Ohrs": 0,
+			"PrevAve2": null
+		},
+		"TJ": {
+			"role": "ai",
+			"First Name": "Todd",
+			"Last Name": "Jelstad",
+			"Ohrs": 0,
+			"PrevAve2": null
+		},
+		"WZ": {
+			"role": "ai",
+			"First Name": "William",
+			"Last Name": "Zhang",
+			"Ohrs": 0,
+			"PrevAve2": null
+		},
+		"AP": {
+			"role": "i",
+			"First Name": "Ali",
+			"Last Name": "Palizban",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"BG": {
+			"role": "i",
+			"First Name": "Bob",
+			"Last Name": "Gill",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"CSi": {
+			"role": "i",
+			"First Name": "Chris",
+			"Last Name": "Siu",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"CSh": {
+			"role": "i",
+			"First Name": "Colin",
+			"Last Name": "Shaw",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"CH": {
+			"role": "i",
+			"First Name": "Craig",
+			"Last Name": "Hennessey",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"DL": {
+			"role": "i",
+			"First Name": "David",
+			"Last Name": "Leversage",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"DRm": {
+			"role": "i",
+			"First Name": "David",
+			"Last Name": "Romalo",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"DV": {
+			"role": "i",
+			"First Name": "David",
+			"Last Name": "Verner",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"DK": {
+			"role": "i",
+			"First Name": "Diane",
+			"Last Name": "Kennedy",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"EC": {
+			"role": "i",
+			"First Name": "Ed",
+			"Last Name": "Casas",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"GP": {
+			"role": "i",
+			"First Name": "Glenn",
+			"Last Name": "Pellegrin",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"GG": {
+			"role": "i",
+			"First Name": "Gurminder",
+			"Last Name": "Grewal",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"HS": {
+			"role": "i",
+			"First Name": "Hassan",
+			"Last Name": "Saberi",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"JB": {
+			"role": "i",
+			"First Name": "Jeff",
+			"Last Name": "Bloemink",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"JDi": {
+			"role": "i",
+			"First Name": "John",
+			"Last Name": "Dian",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"JL": {
+			"role": "i",
+			"First Name": "Joselito",
+			"Last Name": "Laguio",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"KM": {
+			"role": "i",
+			"First Name": "Kathy",
+			"Last Name": "Manson",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"MJ": {
+			"role": "i",
+			"First Name": "Mahda",
+			"Last Name": "Jahromi",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"ML": {
+			"role": "i",
+			"First Name": "Maurice",
+			"Last Name": "LeNoble",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"NI": {
+			"role": "i",
+			"First Name": "Nurul",
+			"Last Name": "Islam",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"RSr": {
+			"role": "i",
+			"First Name": "Remya",
+			"Last Name": "Sreenath",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"RB": {
+			"role": "i",
+			"First Name": "Rich",
+			"Last Name": "Beketa",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"RT": {
+			"role": "i",
+			"First Name": "Robert",
+			"Last Name": "Trost",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"RR": {
+			"role": "i",
+			"First Name": "Rosamund",
+			"Last Name": "Russell",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"YAH": {
+			"role": "i",
+			"First Name": "Yousry",
+			"Last Name": "Abdel-Hamid",
+			"Ohrs": 5,
+			"PrevAve2": null
+		},
+		"JV": {
+			"role": "i",
+			"First Name": "Jodie",
+			"Last Name": "Vigar",
+			"Ohrs": null,
+			"PrevAve2": null
+		},
+		"UC": {
+			"role": "i",
+			"First Name": "Unassgined",
+			"Last Name": "Courses",
+			"Ohrs": null,
+			"PrevAve2": null
+		}
+	},
+	"courses": {
+		"ELEX 0304": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_nolab",
+			"notes": null,
+			"description": "Orientation",
+			"Designlecwk": 7,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 1,
+			"TPLab": null,
+			"SPLec": 9,
+			"SPLab": null,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 0404": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_nolab",
+			"notes": null,
+			"description": "Technologist Code of Ethics",
+			"Designlecwk": 3,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 1,
+			"TPLab": null,
+			"SPLec": 9,
+			"SPLab": null,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 1101": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_nolab",
+			"notes": null,
+			"description": "Introduction to Codes and Standards",
+			"Designlecwk": 4,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": null,
+			"SPLec": 9,
+			"SPLab": null,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 1102": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_18",
+			"notes": null,
+			"description": "EFab Tools & Techniques",
+			"Designlecwk": 2,
+			"Designlabwk": 10,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 1103": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_18",
+			"notes": null,
+			"description": "Introductory Networking",
+			"Designlecwk": 5,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 1105": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_18",
+			"notes": null,
+			"description": "Circuit Analysis 1",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 1,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 1112": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_18",
+			"notes": null,
+			"description": "Engineering Tools",
+			"Designlecwk": 1,
+			"Designlabwk": 4,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 1117": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_18",
+			"notes": null,
+			"description": "Digital Techniques 1",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 1205": {
+			"program": "Robotics",
+			"subgroup": "Robotics",
+			"notes": null,
+			"description": "Circuit Analysis Robotics 1",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 1,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 1215": {
+			"program": "Robotics",
+			"subgroup": "Robotics",
+			"notes": null,
+			"description": "Digital Techniques Robotics 1",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 1,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2105": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Circuit Analysis 2",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2117": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Digital Techniques 2",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2120": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Electronic Circuits 1",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 1,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2125": {
+			"program": "ECET_Y1",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "C Programming for Electronics",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2205": {
+			"program": "Robotics",
+			"subgroup": "Robotics",
+			"notes": null,
+			"description": "Circuit Analysis Robotics 2",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2205b": {
+			"program": "Robotics",
+			"subgroup": "Robotics",
+			"notes": null,
+			"description": "Circuit Analysis Robotics 2",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2220": {
+			"program": "Robotics",
+			"subgroup": "Robotics",
+			"notes": null,
+			"description": "Electronics for Robotics 1",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 1,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2220b": {
+			"program": "Robotics",
+			"subgroup": "Robotics",
+			"notes": null,
+			"description": "Electronics for Robotics 1",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 1,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2811": {
+			"program": "Building",
+			"subgroup": "Building",
+			"notes": null,
+			"description": "Electrical Systems",
+			"Designlecwk": 1,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 2,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4561": {
+			"program": "Telecom",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Telecom and Networks Presentation",
+			"Designlecwk": 1,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2811b": {
+			"program": "Building",
+			"subgroup": "Building",
+			"notes": null,
+			"description": "Electrical Systems",
+			"Designlecwk": 1,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 2,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2825": {
+			"program": "Food",
+			"subgroup": "Food",
+			"notes": "will no longer be delivered starting January 2021",
+			"description": "Instrumentation for Biological Sciences",
+			"Designlecwk": 2,
+			"Designlabwk": 1,
+			"Designtutwk": 0,
+			"Designtermlen": 10,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2830": {
+			"program": "ChemSci",
+			"subgroup": "ChemSci",
+			"notes": null,
+			"description": "Process Measurement",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2835": {
+			"program": "Dipl_Mech",
+			"subgroup": "Dipl_Mech",
+			"notes": null,
+			"description": "Instrumentation for Mechanical Design",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2835b": {
+			"program": "Dipl_Mech",
+			"subgroup": "Dipl_Mech",
+			"notes": null,
+			"description": "Instrumentation for Mechanical Design",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2845": {
+			"program": "Dipl_Mech",
+			"subgroup": "Dipl_Mech",
+			"notes": null,
+			"description": "Electrical Equipment Applications",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 2,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2860": {
+			"program": "Biomed",
+			"subgroup": "Biomed_Y1",
+			"notes": null,
+			"description": "Electronic Prototype Manufacturing",
+			"Designlecwk": 0.01,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 2860b": {
+			"program": "Biomed",
+			"subgroup": "Biomed_Y1",
+			"notes": null,
+			"description": "Electronic Prototype Manufacturing",
+			"Designlecwk": 0,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3120": {
+			"program": "Shared",
+			"subgroup": "ECET_16",
+			"notes": "3 (3321)",
+			"description": "Electronic Circuits 2",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3130": {
+			"program": "Shared",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Signal Processing and Power Electronics",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3201": {
+			"program": "AandI",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Current Practices in A&I",
+			"Designlecwk": 15,
+			"Designlabwk": 15,
+			"Designtutwk": 0,
+			"Designtermlen": 2,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3203": {
+			"program": "AandI",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Canadian Electrical Code",
+			"Designlecwk": 20,
+			"Designlabwk": 10,
+			"Designtutwk": 0,
+			"Designtermlen": 1,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3204": {
+			"program": "AandI",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Electrical Equipment",
+			"Designlecwk": 20,
+			"Designlabwk": 10,
+			"Designtutwk": 0,
+			"Designtermlen": 1,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3210": {
+			"program": "Shared",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Sensors for Measurement and Control",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3215": {
+			"program": "AandI",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Process Control Devices and Techniques",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1.25,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3305": {
+			"program": "Shared",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Microcontroller Systems ",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3321": {
+			"program": "Robotics",
+			"subgroup": "Robotics",
+			"notes": "3 (3120)",
+			"description": "Electronic Circuits 2: Robotics ",
+			"Designlecwk": 0,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3401": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Grounding, Bonding and Testing",
+			"Designlecwk": 1,
+			"Designlabwk": 4,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3402": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Power Quality",
+			"Designlecwk": 4,
+			"Designlabwk": 4,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3403": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Renewable Energy Sytems",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3404": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Industrial Networking & Smart Grid",
+			"Designlecwk": 6,
+			"Designlabwk": 4,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3410": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": 4,
+			"description": "CEC and Industrial Systems",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3425": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": 4,
+			"description": "Electrical Equipment",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3430": {
+			"program": "Shared",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "PLCs and Industrial Control",
+			"Designlecwk": 2,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3511": {
+			"program": "Telecom",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Special Topics in Telecom",
+			"Designlecwk": 4,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3521": {
+			"program": "Telecom",
+			"subgroup": "ECET_16",
+			"notes": 4,
+			"description": "Analog and Digital Communications",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 3525": {
+			"program": "Telecom",
+			"subgroup": "ECET_16",
+			"notes": 4,
+			"description": "Data Communications",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4206": {
+			"program": "AandI",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Industrial Data Communications",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4210": {
+			"program": "AandI",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Analysers for Process Automation",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1.5,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4215": {
+			"program": "AandI",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Strategies for Industrial Process Control",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1.7,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4221": {
+			"program": "AandI",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Distributed Control Systems",
+			"Designlecwk": 1,
+			"Designlabwk": 2,
+			"Designtutwk": 1,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 1,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4226": {
+			"program": "AandI",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Instrumentation Engineering and Projects",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4230": {
+			"program": "AandI",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "PLCs for Process Control",
+			"Designlecwk": 0.01,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4336": {
+			"program": "Robotics",
+			"subgroup": "Robotics",
+			"notes": null,
+			"description": "Feedback Systems",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4336b": {
+			"program": "Robotics",
+			"subgroup": "Robotics",
+			"notes": null,
+			"description": "Feedback Systems",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4410": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Power Systems Analysis",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4420": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Power Electronics and RE Applications",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4425": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Protective Systems",
+			"Designlecwk": 2,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4435": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Electrical Machines",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4440": {
+			"program": "Power",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Electrical Power Projects ",
+			"Designlecwk": 1,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4525": {
+			"program": "Telecom",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "RF Circuit Design",
+			"Designlecwk": 2,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4540": {
+			"program": "Telecom",
+			"subgroup": "ECET_12",
+			"notes": 4,
+			"description": "Local Area Networks",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4545": {
+			"program": "Telecom",
+			"subgroup": "ECET_12",
+			"notes": 4,
+			"description": "Transmission Devices",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4550": {
+			"program": "Telecom",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Wide Area Networks",
+			"Designlecwk": 3,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4560": {
+			"program": "Telecom",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Telecom Projects",
+			"Designlecwk": 1,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4618": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Object Oriented Program Design",
+			"Designlecwk": 2,
+			"Designlabwk": 3,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4651": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Programmable Logic Controllers",
+			"Designlecwk": 2,
+			"Designlabwk": 4,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4652": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Industrial System Design using CEC",
+			"Designlecwk": 3,
+			"Designlabwk": 0,
+			"Designtutwk": 3,
+			"Designtermlen": 4,
+			"TPLab": null,
+			"SPLec": 9,
+			"SPLab": null,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4653": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Python Applications in EE",
+			"Designlecwk": 2,
+			"Designlabwk": 4,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4699": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Electrical Systems Design Project",
+			"Designlecwk": 1,
+			"Designlabwk": 5,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 4855": {
+			"program": "Biomed",
+			"subgroup": "Biomed_Y2",
+			"notes": null,
+			"description": "Electronic Displays",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7021": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Scientific Computing 1",
+			"Designlecwk": 0,
+			"Designlabwk": 4,
+			"Designtutwk": 0,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7030": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Thermodynamics",
+			"Designlecwk": 3,
+			"Designlabwk": 1.285714,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7110": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Linear Physical Systems",
+			"Designlecwk": 3,
+			"Designlabwk": 1.285714,
+			"Designtutwk": 1.071429,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7121": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Scientific Computing 2",
+			"Designlecwk": 0,
+			"Designlabwk": 4,
+			"Designtutwk": 0,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7140": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Semiconductor Theory and Applications",
+			"Designlecwk": 3,
+			"Designlabwk": 1.285714,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7210": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Signal Theory and Processing",
+			"Designlecwk": 3,
+			"Designlabwk": 0.857143,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7220": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Feedback Control",
+			"Designlecwk": 3,
+			"Designlabwk": 2.357143,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7230": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Electromagnetism",
+			"Designlecwk": 3,
+			"Designlabwk": 1.285714,
+			"Designtutwk": 1.071429,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7240": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Electric Machines",
+			"Designlecwk": 3,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7250": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Communication Theory and Applications",
+			"Designlecwk": 3,
+			"Designlabwk": 1,
+			"Designtutwk": 1,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7345": {
+			"program": "BEng_Mech",
+			"subgroup": "BEng_Mech",
+			"notes": null,
+			"description": "Electronics and Microcontrollers",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7345b": {
+			"program": "BEng_Mech",
+			"subgroup": "BEng_Mech",
+			"notes": null,
+			"description": "Electronics and Microcontrollers",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7350": {
+			"program": "BEng_Mech",
+			"subgroup": "BEng_Mech",
+			"notes": 1,
+			"description": "Control and Dynamic Systems",
+			"Designlecwk": 2,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7350b": {
+			"program": "BEng_Mech",
+			"subgroup": "BEng_Mech",
+			"notes": 1,
+			"description": "Control and Dynamic Systems",
+			"Designlecwk": 2,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 5,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7520": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_tut",
+			"notes": null,
+			"description": "Advanced Circuit Analysis",
+			"Designlecwk": 3,
+			"Designlabwk": 0,
+			"Designtutwk": 2,
+			"Designtermlen": 15,
+			"TPLab": null,
+			"SPLec": 9,
+			"SPLab": null,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7530": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": 1,
+			"description": "Electromagnetics Fundamentals",
+			"Designlecwk": 3,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0.5,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7550": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": 1,
+			"description": "Power System Components",
+			"Designlecwk": 3,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7610": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": 1,
+			"description": "Linear Physical Systems",
+			"Designlecwk": 3,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0.5,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7620": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Signal Theory and Processing",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7640": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_12",
+			"notes": null,
+			"description": "Analog & Digital Communication",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7660": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Digital Design",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7710": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": null,
+			"description": "Communication Networks",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7720": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_18",
+			"notes": 1,
+			"description": "Feedback Control",
+			"Designlecwk": 3,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7790": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_32",
+			"notes": null,
+			"description": "Capstone Design Project Initiation",
+			"Designlecwk": 1,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7810": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": "1, 2",
+			"description": "Electrical Power Systems Analysis & Design",
+			"Designlecwk": 2,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0.5,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7815": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": 2,
+			"description": "Digital Image Processing",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7820": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_16",
+			"notes": "1, 2",
+			"description": "Real Time Embedded Systems",
+			"Designlecwk": 2.5,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7860": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_12",
+			"notes": "1, 2",
+			"description": "Wireless Communication",
+			"Designlecwk": 2.5,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7870": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_12",
+			"notes": "1, 2",
+			"description": "Industrial Control Systems",
+			"Designlecwk": 2,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1.4,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7890": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_32",
+			"notes": null,
+			"description": "Capstone Design Project Completion",
+			"Designlecwk": 1,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7890b": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_32",
+			"notes": null,
+			"description": "Capstone Design Project Completion",
+			"Designlecwk": 1,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 4,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 8010": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Data Communication",
+			"Designlecwk": 3,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 8030": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Real Time Embedded Systems",
+			"Designlecwk": 3,
+			"Designlabwk": 1,
+			"Designtutwk": 1,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 8130": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Computer Networks",
+			"Designlecwk": 0,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": null,
+			"SPLec": 9,
+			"SPLab": null,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 8140": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Mobile Communications",
+			"Designlecwk": 1,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 8170": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Industrial System Electrical Design",
+			"Designlecwk": 3,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 8180": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Discrete Time Control Systems",
+			"Designlecwk": 3,
+			"Designlabwk": 1.3333,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 8270": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Power System Analysis",
+			"Designlecwk": 0,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": null,
+			"SPLec": 9,
+			"SPLab": null,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 8275": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "RF Design Engineering",
+			"Designlecwk": 3,
+			"Designlabwk": 1.5,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 8300": {
+			"program": "Btech_E",
+			"subgroup": "Btech_E",
+			"notes": null,
+			"description": "Industry Project",
+			"Designlecwk": 0,
+			"Designlabwk": 0.910942,
+			"Designtutwk": 0,
+			"Designtermlen": 14,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ENGR 3800": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_32",
+			"notes": 5,
+			"description": "Introduction to Professional Engineering",
+			"Designlecwk": 2,
+			"Designlabwk": 0,
+			"Designtutwk": 1,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 2,
+			"SPTut": 2,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX 7880": {
+			"program": "BEng_EE",
+			"subgroup": "ECET_nolab",
+			"notes": "3 (MECH)",
+			"description": "Law, Ethics and Professionalism",
+			"Designlecwk": 3,
+			"Designlabwk": 0,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": null,
+			"SPLec": 9,
+			"SPLab": null,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX1610": {
+			"program": "INCS",
+			"subgroup": "ECET_18",
+			"notes": null,
+			"description": "Electrical Systems for INCS",
+			"Designlecwk": 3,
+			"Designlabwk": 2,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX2610": {
+			"program": "INCS",
+			"subgroup": "ECET_18",
+			"notes": null,
+			"description": "Industrial Systems and Safety for INCS",
+			"Designlecwk": 3,
+			"Designlabwk": 1,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		},
+		"ELEX2620": {
+			"program": "INCS",
+			"subgroup": "ECET_18",
+			"notes": null,
+			"description": "Electrical Systems for INCS",
+			"Designlecwk": 3,
+			"Designlabwk": 1,
+			"Designtutwk": 0,
+			"Designtermlen": 15,
+			"TPLab": 1,
+			"SPLec": 9,
+			"SPLab": 1,
+			"SPTut": null,
+			"equalizepcntlec": null,
+			"equalizepcntlab": null
+		}
+	},
+	"comp": {
+		"lec_notes_indicator": "T",
+		"lec_notes_pcnt": 0.3333333333333333,
+		"lec_nonotes_indicator": "Tx",
+		"lec_nonotes_pcnt": 1,
+		"lab_notes_indicator": "P",
+		"lab_notes_pcnt": 0.3333333333333333,
+		"lab_nonotes_indicator": "Px",
+		"lab_nonotes_pcnt": 1,
+		"I_Coursecount_Threshold": 2,
+		"I_Coursecount_extrahrs": 1,
+		"AI_Coursecount_Threshold": 4,
+		"AI_Coursecount_extrahrs": 1,
+		"lec_seats_base_level": 50,
+		"lec_seats_comp_factor": 0.011111111111111112,
+		"Offhours_extra_pcnt": 0.3333333333333333
+	},
+	"setsize": {
+		"ECET_tut": 32,
+		"ECET_nolab": 0,
+		"ECET_12": 12,
+		"ECET_16": 16,
+		"ECET_18": 18,
+		"ECET_32": 32,
+		"Btech_E": 16,
+		"Dipl_Mech": 22,
+		"BEng_Mech": 22,
+		"Robotics": 16,
+		"Biomed_Y1": 16,
+		"Biomed_Y2": 16,
+		"Building": 17,
+		"ChemSci": 16,
+		"Food": 12
+	},
+	"enrollment": {
+		"ELEX 1105": {
+			"fall": 103,
+			"winter": 91,
+			"short spring": 0
+		},
+		"ELEX 1112": {
+			"fall": 93,
+			"winter": 64,
+			"short spring": 0
+		},
+		"ELEX 1117": {
+			"fall": 110,
+			"winter": 77,
+			"short spring": 0
+		},
+		"ELEX 2105": {
+			"fall": 67,
+			"winter": 71,
+			"short spring": 0
+		},
+		"ELEX 2117": {
+			"fall": 56,
+			"winter": 82,
+			"short spring": 0
+		},
+		"ELEX 2120": {
+			"fall": 56,
+			"winter": 78,
+			"short spring": 0
+		},
+		"ELEX 2125": {
+			"fall": 58,
+			"winter": 81,
+			"short spring": 0
+		},
+		"ELEX 1101": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 14
+		},
+		"ELEX 1102": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 142
+		},
+		"ELEX 1103": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 144
+		},
+		"ELEX 3215": {
+			"fall": 23,
+			"winter": 9,
+			"short spring": 0
+		},
+		"ELEX 4206": {
+			"fall": 10,
+			"winter": 23,
+			"short spring": 0
+		},
+		"ELEX 4210": {
+			"fall": 16,
+			"winter": 20,
+			"short spring": 0
+		},
+		"ELEX 4215": {
+			"fall": 16,
+			"winter": 20,
+			"short spring": 0
+		},
+		"ELEX 4221": {
+			"fall": 13,
+			"winter": 22,
+			"short spring": 0
+		},
+		"ELEX 4226": {
+			"fall": 13,
+			"winter": 22,
+			"short spring": 0
+		},
+		"ELEX 4230": {
+			"fall": 13,
+			"winter": 23,
+			"short spring": 0
+		},
+		"ELEX 3201": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 33
+		},
+		"ELEX 3203": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 33
+		},
+		"ELEX 3204": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 33
+		},
+		"ELEX 3410": {
+			"fall": 23,
+			"winter": 16,
+			"short spring": 0
+		},
+		"ELEX 3425": {
+			"fall": 22,
+			"winter": 16,
+			"short spring": 0
+		},
+		"ELEX 3430": {
+			"fall": 40,
+			"winter": 25,
+			"short spring": 0
+		},
+		"ELEX 4410": {
+			"fall": 12,
+			"winter": 26,
+			"short spring": 0
+		},
+		"ELEX 4420": {
+			"fall": 11,
+			"winter": 25,
+			"short spring": 0
+		},
+		"ELEX 4425": {
+			"fall": 15,
+			"winter": 27,
+			"short spring": 0
+		},
+		"ELEX 4435": {
+			"fall": 13,
+			"winter": 27,
+			"short spring": 0
+		},
+		"ELEX 4440": {
+			"fall": 15,
+			"winter": 28,
+			"short spring": 0
+		},
+		"ELEX 3401": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 43
+		},
+		"ELEX 3402": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 43
+		},
+		"ELEX 3403": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 44
+		},
+		"ELEX 3404": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 53
+		},
+		"ELEX 3521": {
+			"fall": 10,
+			"winter": 6,
+			"short spring": 0
+		},
+		"ELEX 3525": {
+			"fall": 10,
+			"winter": 7,
+			"short spring": 0
+		},
+		"ELEX 4525": {
+			"fall": 10,
+			"winter": 5,
+			"short spring": 0
+		},
+		"ELEX 4540": {
+			"fall": 10,
+			"winter": 6,
+			"short spring": 0
+		},
+		"ELEX 4545": {
+			"fall": 10,
+			"winter": 5,
+			"short spring": 0
+		},
+		"ELEX 4550": {
+			"fall": 6,
+			"winter": 6,
+			"short spring": 0
+		},
+		"ELEX 4560": {
+			"fall": 6,
+			"winter": 6,
+			"short spring": 0
+		},
+		"ELEX 3511": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 11
+		},
+		"ENGR 3800": {
+			"fall": 32,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 7520": {
+			"fall": 30,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 7530": {
+			"fall": 30,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 7610": {
+			"fall": 30,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 7550": {
+			"fall": 0,
+			"winter": 29,
+			"short spring": 0
+		},
+		"ELEX 7620": {
+			"fall": 0,
+			"winter": 34,
+			"short spring": 0
+		},
+		"ELEX 7640": {
+			"fall": 0,
+			"winter": 33,
+			"short spring": 0
+		},
+		"ELEX 7660": {
+			"fall": 0,
+			"winter": 31,
+			"short spring": 0
+		},
+		"ELEX 7710": {
+			"fall": 33,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 7720": {
+			"fall": 36,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 7790": {
+			"fall": 34,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 7880": {
+			"fall": 0,
+			"winter": 96,
+			"short spring": 0
+		},
+		"ELEX 7890": {
+			"fall": 0,
+			"winter": 34,
+			"short spring": 0
+		},
+		"ELEX 7890b": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 34
+		},
+		"ELEX 7810": {
+			"fall": 22,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 7815": {
+			"fall": 28,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 7820": {
+			"fall": 24,
+			"winter": 0,
+			"short spring": 0
+		},
+		"COMP 7855": {
+			"fall": 0,
+			"winter": 13,
+			"short spring": 0
+		},
+		"ELEX 7860": {
+			"fall": 0,
+			"winter": 30,
+			"short spring": 0
+		},
+		"ELEX 7870": {
+			"fall": 0,
+			"winter": 24,
+			"short spring": 0
+		},
+		"ELEX 4651": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 52
+		},
+		"ELEX 4652": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 38
+		},
+		"ELEX 4653": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 50
+		},
+		"ELEX 4699": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 38
+		},
+		"ELEX 3120": {
+			"fall": 22,
+			"winter": 12,
+			"short spring": 0
+		},
+		"ELEX 3130": {
+			"fall": 34,
+			"winter": 22,
+			"short spring": 0
+		},
+		"ELEX 3210": {
+			"fall": 22,
+			"winter": 12,
+			"short spring": 0
+		},
+		"ELEX 3305": {
+			"fall": 40,
+			"winter": 32,
+			"short spring": 0
+		},
+		"ELEX 4618": {
+			"fall": 0,
+			"winter": 33,
+			"short spring": 0
+		},
+		"ELEX 1205": {
+			"fall": 35,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 1215": {
+			"fall": 35,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 2830": {
+			"fall": 14,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 2845": {
+			"fall": 91,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 3321": {
+			"fall": 18,
+			"winter": 0,
+			"short spring": 0
+		},
+		"ELEX 2205": {
+			"fall": 0,
+			"winter": 28,
+			"short spring": 0
+		},
+		"ELEX 2205b": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 28
+		},
+		"ELEX 2220": {
+			"fall": 0,
+			"winter": 30,
+			"short spring": 0
+		},
+		"ELEX 2220b": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 30
+		},
+		"ELEX 2811": {
+			"fall": 0,
+			"winter": 114,
+			"short spring": 0
+		},
+		"ELEX 2811b": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 114
+		},
+		"ELEX 2825": {
+			"fall": 0,
+			"winter": 19,
+			"short spring": 0
+		},
+		"ELEX 2835": {
+			"fall": 0,
+			"winter": 60,
+			"short spring": 0
+		},
+		"ELEX 2835b": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 60
+		},
+		"ELEX 2860": {
+			"fall": 0,
+			"winter": 24,
+			"short spring": 0
+		},
+		"ELEX 2860b": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 24
+		},
+		"ELEX 4336": {
+			"fall": 0,
+			"winter": 19,
+			"short spring": 0
+		},
+		"ELEX 4336b": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 19
+		},
+		"ELEX 4855": {
+			"fall": 0,
+			"winter": 28,
+			"short spring": 0
+		},
+		"ELEX 7345": {
+			"fall": 0,
+			"winter": 34,
+			"short spring": 0
+		},
+		"ELEX 7345b": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 34
+		},
+		"ELEX 7350": {
+			"fall": 0,
+			"winter": 34,
+			"short spring": 0
+		},
+		"ELEX 7350b": {
+			"fall": 0,
+			"winter": 0,
+			"short spring": 34
+		}
+	},
+	"provision": {
+		"ELEX 0304": {
+			"fall": {
+				"level": 1,
+				"sets": 6,
+				"evening": null
+			},
+			"winter": {
+				"level": 1,
+				"sets": 4,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 0404": {
+			"fall": {
+				"level": 1,
+				"sets": 6,
+				"evening": null
+			},
+			"winter": {
+				"level": 1,
+				"sets": 4,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 1101": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 1,
+				"sets": 9,
+				"evening": null
+			}
+		},
+		"ELEX 1102": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 1,
+				"sets": 9,
+				"evening": null
+			}
+		},
+		"ELEX 1103": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 1,
+				"sets": 9,
+				"evening": null
+			}
+		},
+		"ELEX 1105": {
+			"fall": {
+				"level": 1,
+				"sets": 6,
+				"evening": null
+			},
+			"winter": {
+				"level": 1,
+				"sets": 6,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 1112": {
+			"fall": {
+				"level": 1,
+				"sets": 6,
+				"evening": null
+			},
+			"winter": {
+				"level": 1,
+				"sets": 4,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 1117": {
+			"fall": {
+				"level": 1,
+				"sets": 6,
+				"evening": null
+			},
+			"winter": {
+				"level": 1,
+				"sets": 5,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 1205": {
+			"fall": {
+				"level": 1,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 1215": {
+			"fall": {
+				"level": 1,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 2105": {
+			"fall": {
+				"level": 2,
+				"sets": 5,
+				"evening": null
+			},
+			"winter": {
+				"level": 2,
+				"sets": 6,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 2117": {
+			"fall": {
+				"level": 2,
+				"sets": 5,
+				"evening": null
+			},
+			"winter": {
+				"level": 2,
+				"sets": 6,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 2120": {
+			"fall": {
+				"level": 2,
+				"sets": 5,
+				"evening": null
+			},
+			"winter": {
+				"level": 2,
+				"sets": 6,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 2125": {
+			"fall": {
+				"level": 2,
+				"sets": 5,
+				"evening": null
+			},
+			"winter": {
+				"level": 2,
+				"sets": 6,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 2205": {
+			"fall": {},
+			"winter": {
+				"level": 2,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 2205b": {
+			"fall": {},
+			"winter": {
+				"level": null,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {
+				"level": 2,
+				"sets": 2,
+				"evening": null
+			}
+		},
+		"ELEX 2220": {
+			"fall": {},
+			"winter": {
+				"level": 2,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 2220b": {
+			"fall": {},
+			"winter": {
+				"level": null,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {
+				"level": 2,
+				"sets": 2,
+				"evening": null
+			}
+		},
+		"ELEX 2811": {
+			"fall": {},
+			"winter": {
+				"level": 4,
+				"sets": 6,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4561": {
+			"fall": {},
+			"winter": {
+				"level": null,
+				"sets": 6,
+				"evening": null
+			},
+			"short spring": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			}
+		},
+		"ELEX 2811b": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 4,
+				"sets": 6,
+				"evening": null
+			}
+		},
+		"ELEX 2825": {
+			"fall": {},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 2830": {
+			"fall": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 2835": {
+			"fall": {},
+			"winter": {
+				"level": 4,
+				"sets": 4,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 2835b": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 4,
+				"sets": 4,
+				"evening": null
+			}
+		},
+		"ELEX 2845": {
+			"fall": {
+				"level": 3,
+				"sets": 6,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 2860": {
+			"fall": {},
+			"winter": {
+				"level": 2,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 2860b": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 2,
+				"sets": 0,
+				"evening": null
+			}
+		},
+		"ELEX 3120": {
+			"fall": {
+				"level": 3,
+				"sets": 4,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 3130": {
+			"fall": {
+				"level": 3,
+				"sets": 3,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 3201": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 3,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 3203": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 3,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 3204": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 3,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 3210": {
+			"fall": {
+				"level": 3,
+				"sets": 5,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 3215": {
+			"fall": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 3305": {
+			"fall": {
+				"level": 3,
+				"sets": 6,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 3,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 3321": {
+			"fall": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 3401": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 3,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 3402": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 3,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 3403": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 3,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 3404": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 3,
+				"sets": 4,
+				"evening": null
+			}
+		},
+		"ELEX 3410": {
+			"fall": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 3425": {
+			"fall": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 3430": {
+			"fall": {
+				"level": 3,
+				"sets": 3,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 3511": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 3,
+				"sets": 1,
+				"evening": null
+			}
+		},
+		"ELEX 3521": {
+			"fall": {
+				"level": 3,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 3525": {
+			"fall": {
+				"level": 3,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 3,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4206": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4210": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4215": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4221": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4226": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4230": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4336": {
+			"fall": {},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4336b": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			}
+		},
+		"ELEX 4410": {
+			"fall": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4420": {
+			"fall": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4425": {
+			"fall": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4435": {
+			"fall": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4440": {
+			"fall": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4525": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4540": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4545": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4550": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4560": {
+			"fall": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4618": {
+			"fall": {
+				"level": null,
+				"sets": 1,
+				"evening": null
+			},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 4651": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 4,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 4652": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 4,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 4653": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 4,
+				"sets": 4,
+				"evening": null
+			}
+		},
+		"ELEX 4699": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 4,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 4855": {
+			"fall": {},
+			"winter": {
+				"level": 4,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7021": {
+			"fall": {
+				"level": 5,
+				"sets": 2,
+				"evening": 1
+			},
+			"winter": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7030": {
+			"fall": {
+				"level": 5,
+				"sets": 2,
+				"evening": 1
+			},
+			"winter": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7110": {
+			"fall": {
+				"level": 5,
+				"sets": 2,
+				"evening": 1
+			},
+			"winter": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7121": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 3,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7140": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 2,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7210": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 3,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7220": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 2,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7230": {
+			"fall": {
+				"level": 5,
+				"sets": 1,
+				"evening": 1
+			},
+			"winter": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7240": {
+			"fall": {
+				"level": 5,
+				"sets": 1,
+				"evening": 1
+			},
+			"winter": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7250": {
+			"fall": {
+				"level": 5,
+				"sets": 1,
+				"evening": 1
+			},
+			"winter": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 7345": {
+			"fall": {},
+			"winter": {
+				"level": 6,
+				"sets": 3,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7345b": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 6,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 7350": {
+			"fall": {},
+			"winter": {
+				"level": 6,
+				"sets": 3,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7350b": {
+			"fall": {},
+			"winter": {},
+			"short spring": {
+				"level": 6,
+				"sets": 3,
+				"evening": null
+			}
+		},
+		"ELEX 7520": {
+			"fall": {
+				"level": 5,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 7530": {
+			"fall": {
+				"level": 5,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 7550": {
+			"fall": {},
+			"winter": {
+				"level": 6,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7610": {
+			"fall": {
+				"level": 5,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 7620": {
+			"fall": {},
+			"winter": {
+				"level": 6,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7640": {
+			"fall": {},
+			"winter": {
+				"level": 6,
+				"sets": 3,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7660": {
+			"fall": {},
+			"winter": {
+				"level": 6,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7710": {
+			"fall": {
+				"level": 7,
+				"sets": 3,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 7720": {
+			"fall": {
+				"level": 7,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 7790": {
+			"fall": {
+				"level": 7,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 7810": {
+			"fall": {
+				"level": 7,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 7815": {
+			"fall": {
+				"level": 7,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": null,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7820": {
+			"fall": {
+				"level": 7,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {
+				"level": null,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7860": {
+			"fall": {},
+			"winter": {
+				"level": 8,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7870": {
+			"fall": {},
+			"winter": {
+				"level": 8,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7890": {
+			"fall": {},
+			"winter": {
+				"level": 8,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX 7890b": {
+			"fall": {},
+			"winter": {
+				"level": null,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {
+				"level": 8,
+				"sets": 1,
+				"evening": null
+			}
+		},
+		"ELEX 8010": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 0,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 8030": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 0,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 8130": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 0,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 8140": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 0,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 8170": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 0,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 8180": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 0,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 8270": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 0,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 8275": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 0,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ELEX 8300": {
+			"fall": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			},
+			"winter": {
+				"level": 6,
+				"sets": 1,
+				"evening": 1
+			},
+			"short spring": {
+				"level": null,
+				"sets": null,
+				"evening": 1
+			}
+		},
+		"ENGR 3800": {
+			"fall": {
+				"level": 3,
+				"sets": 4,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX 7880": {
+			"fall": {},
+			"winter": {
+				"level": 8,
+				"sets": 2,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX1610": {
+			"fall": {
+				"level": 1,
+				"sets": 2,
+				"evening": null
+			},
+			"winter": {},
+			"short spring": {}
+		},
+		"ELEX2610": {
+			"fall": {},
+			"winter": {
+				"level": 2,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		},
+		"ELEX2620": {
+			"fall": {},
+			"winter": {
+				"level": 2,
+				"sets": 1,
+				"evening": null
+			},
+			"short spring": {}
+		}
+	},
+	"teaching": [
+		{
+			"course": "ELEX 0304",
+			"name": "MJ",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 0304",
+			"name": "RB",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 0404",
+			"name": "EA",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 0404",
+			"name": "EA",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1101",
+			"name": "AP",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1102",
+			"name": "UC",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1102",
+			"name": "UC",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1102",
+			"name": "RB",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1102",
+			"name": "RS",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1102",
+			"name": "TJ",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1102",
+			"name": "AM",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1103",
+			"name": "BG",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1103",
+			"name": "DV",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1103",
+			"name": "RT",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1103",
+			"name": "UC",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1105",
+			"name": "ML",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1105",
+			"name": "ML",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1105",
+			"name": "ML",
+			"term": "fall",
+			"type": "lab",
+			"sets": 4,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1105",
+			"name": "ML",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1105",
+			"name": "ML",
+			"term": "fall",
+			"type": "tut",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1105",
+			"name": "ML",
+			"term": "winter",
+			"type": "tut",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1105",
+			"name": "DV",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1105",
+			"name": "DV",
+			"term": "winter",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1105",
+			"name": "WZ",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1112",
+			"name": "JL",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1112",
+			"name": "JL",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1112",
+			"name": "JL",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1112",
+			"name": "JL",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1112",
+			"name": "TJ",
+			"term": "fall",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1112",
+			"name": "WZ",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1112",
+			"name": "WZ",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1112",
+			"name": "TJ",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1117",
+			"name": "GG",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": "T",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1117",
+			"name": "UC",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1117",
+			"name": "GG",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1117",
+			"name": "UC",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1117",
+			"name": "EC",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1117",
+			"name": "AM",
+			"term": "winter",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1117",
+			"name": "CG",
+			"term": "fall",
+			"type": "lab",
+			"sets": 4,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1205",
+			"name": "CSh",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1205",
+			"name": "CSh",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1205",
+			"name": "CSh",
+			"term": "fall",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1215",
+			"name": "CSh",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1215",
+			"name": "CSh",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 1215",
+			"name": "CSh",
+			"term": "fall",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2105",
+			"name": "MJ",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2105",
+			"name": "MJ",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2105",
+			"name": "MJ",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2105",
+			"name": "MJ",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2105",
+			"name": "RS",
+			"term": "fall",
+			"type": "lab",
+			"sets": 4,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2105",
+			"name": "RS",
+			"term": "winter",
+			"type": "lab",
+			"sets": 5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2117",
+			"name": "RB",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2117",
+			"name": "RB",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2117",
+			"name": "RB",
+			"term": "fall",
+			"type": "lab",
+			"sets": 5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2117",
+			"name": "RB",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2117",
+			"name": "AM",
+			"term": "winter",
+			"type": "lab",
+			"sets": 4,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2120",
+			"name": "CSi",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2120",
+			"name": "CSi",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2120",
+			"name": "CSi",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2120",
+			"name": "CSi",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2120",
+			"name": "CSi",
+			"term": "fall",
+			"type": "tut",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2120",
+			"name": "CSi",
+			"term": "winter",
+			"type": "tut",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2120",
+			"name": "TJ",
+			"term": "fall",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2120",
+			"name": "TJ",
+			"term": "winter",
+			"type": "lab",
+			"sets": 5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2125",
+			"name": "JL",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2125",
+			"name": "JL",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2125",
+			"name": "JL",
+			"term": "fall",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2125",
+			"name": "JL",
+			"term": "winter",
+			"type": "lab",
+			"sets": 4,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2125",
+			"name": "SM",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2125",
+			"name": "SM",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2205",
+			"name": "CSh",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2205",
+			"name": "RS",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2205b",
+			"name": "CSh",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2205b",
+			"name": "RS",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2220",
+			"name": "CSh",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2220",
+			"name": "CSh",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2220",
+			"name": "CSh",
+			"term": "winter",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2220b",
+			"name": "CSh",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2220b",
+			"name": "CSh",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2220b",
+			"name": "CSh",
+			"term": "short spring",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2811",
+			"name": "BG",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2811",
+			"name": "BG",
+			"term": "winter",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4561",
+			"name": "EC",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2811b",
+			"name": "BG",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2811b",
+			"name": "BG",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2825",
+			"name": "RSr",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2825",
+			"name": "RSr",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2830",
+			"name": "RR",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2830",
+			"name": "RR",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2830",
+			"name": "GP",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2835",
+			"name": "GG",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2835",
+			"name": "GG",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2835",
+			"name": "JV",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2835b",
+			"name": "GG",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2835b",
+			"name": "GG",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2835b",
+			"name": "JV",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2845",
+			"name": "UC",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2845",
+			"name": "UC",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2845",
+			"name": "WZ",
+			"term": "fall",
+			"type": "lab",
+			"sets": 4,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 2845",
+			"name": "RS",
+			"term": "fall",
+			"type": "lab",
+			"sets": 6,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3120",
+			"name": "CH",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3120",
+			"name": "YAH",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3120",
+			"name": "CH",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3120",
+			"name": "YAH",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3120",
+			"name": "AM",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3120",
+			"name": "YAH",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3130",
+			"name": "JB",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3130",
+			"name": "JB",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3130",
+			"name": "AM",
+			"term": "fall",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3130",
+			"name": "AM",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3201",
+			"name": "RR",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 0.5
+		},
+		{
+			"course": "ELEX 3201",
+			"name": "GP",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 0.25
+		},
+		{
+			"course": "ELEX 3201",
+			"name": "JV",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 0.25
+		},
+		{
+			"course": "ELEX 3201",
+			"name": "CG",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3201",
+			"name": "GP",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 0.5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3201",
+			"name": "JV",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 0.5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3203",
+			"name": "GG",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 0.5
+		},
+		{
+			"course": "ELEX 3203",
+			"name": "RSr",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 0.5
+		},
+		{
+			"course": "ELEX 3203",
+			"name": "RSr",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1.5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3203",
+			"name": "GP",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1.5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3204",
+			"name": "GP",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 0.75
+		},
+		{
+			"course": "ELEX 3204",
+			"name": "GP",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3204",
+			"name": "JV",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 0.25
+		},
+		{
+			"course": "ELEX 3204",
+			"name": "JV",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3204",
+			"name": "RR",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3210",
+			"name": "RSr",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3210",
+			"name": "RSr",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3210",
+			"name": "RSr",
+			"term": "fall",
+			"type": "lab",
+			"sets": 4,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3210",
+			"name": "RSr",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3210",
+			"name": "CG",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3215",
+			"name": "GG",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3215",
+			"name": "GG",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3215",
+			"name": "GG",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3215",
+			"name": "GG",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3215",
+			"name": "CG",
+			"term": "fall",
+			"type": "lab",
+			"sets": 0.5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3215",
+			"name": "CG",
+			"term": "winter",
+			"type": "lab",
+			"sets": 0.25,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3305",
+			"name": "RT",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3305",
+			"name": "UC",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3305",
+			"name": "RT",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3305",
+			"name": "SM",
+			"term": "fall",
+			"type": "lab",
+			"sets": 5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3305",
+			"name": "SM",
+			"term": "winter",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3321",
+			"name": "AM",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3401",
+			"name": "NI",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3401",
+			"name": "NI",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3401",
+			"name": "UC",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3402",
+			"name": "JB",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3402",
+			"name": "CSi",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3402",
+			"name": "UC",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3403",
+			"name": "UC",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3403",
+			"name": "UC",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3404",
+			"name": "AP",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3404",
+			"name": "WZ",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 4,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3410",
+			"name": "KM",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3410",
+			"name": "KM",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3410",
+			"name": "KM",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3410",
+			"name": "HS",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3410",
+			"name": "RS",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3425",
+			"name": "NI",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3425",
+			"name": "NI",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3425",
+			"name": "NI",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3425",
+			"name": "NI",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3430",
+			"name": "HS",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3430",
+			"name": "HS",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3430",
+			"name": "HS",
+			"term": "fall",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3430",
+			"name": "HS",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3511",
+			"name": "YAH",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3511",
+			"name": "YAH",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3521",
+			"name": "YAH",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3521",
+			"name": "YAH",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3521",
+			"name": "YAH",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3521",
+			"name": "YAH",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3525",
+			"name": "EC",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3525",
+			"name": "YAH",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": "T",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3525",
+			"name": "EC",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 3525",
+			"name": "YAH",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4206",
+			"name": "DL",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4206",
+			"name": "DL",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4206",
+			"name": "DL",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4206",
+			"name": "DL",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4210",
+			"name": "RR",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4210",
+			"name": "RR",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4210",
+			"name": "RR",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4210",
+			"name": "RR",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4210",
+			"name": "CG",
+			"term": "fall",
+			"type": "lab",
+			"sets": 0.5,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4210",
+			"name": "CG",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4215",
+			"name": "GP",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4215",
+			"name": "GP",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4215",
+			"name": "GP",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4215",
+			"name": "GP",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4215",
+			"name": "CG",
+			"term": "fall",
+			"type": "lab",
+			"sets": 0.7,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4215",
+			"name": "CG",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1.4,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4221",
+			"name": "GP",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4221",
+			"name": "RR",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4221",
+			"name": "GP",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4221",
+			"name": "GP",
+			"term": "fall",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4221",
+			"name": "RR",
+			"term": "winter",
+			"type": "tut",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4221",
+			"name": "CG",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4226",
+			"name": "RSr",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4226",
+			"name": "RSr",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4226",
+			"name": "RSr",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4226",
+			"name": "RSr",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4230",
+			"name": "HS",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4230",
+			"name": "HS",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4230",
+			"name": "HS",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4230",
+			"name": "HS",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4336",
+			"name": "JDi",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": "T",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4336",
+			"name": "JDi",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4336b",
+			"name": "JDi",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": "T",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4336b",
+			"name": "JDi",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4410",
+			"name": "AP",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4410",
+			"name": "AP",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4410",
+			"name": "AP",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4410",
+			"name": "AP",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4420",
+			"name": "JB",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4420",
+			"name": "JB",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4420",
+			"name": "JB",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4420",
+			"name": "JB",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4420",
+			"name": "WZ",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4425",
+			"name": "KM",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4425",
+			"name": "KM",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4425",
+			"name": "KM",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4425",
+			"name": "KM",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4425",
+			"name": "WZ",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4425",
+			"name": "WZ",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4435",
+			"name": "NI",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4435",
+			"name": "NI",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4435",
+			"name": "NI",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4435",
+			"name": "NI",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4440",
+			"name": "NI",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4440",
+			"name": "NI",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4525",
+			"name": "DV",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4525",
+			"name": "DV",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4525",
+			"name": "DV",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4525",
+			"name": "DV",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4540",
+			"name": "UC",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4540",
+			"name": "UC",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4540",
+			"name": "UC",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4540",
+			"name": "UC",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4545",
+			"name": "DV",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4545",
+			"name": "DV",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4545",
+			"name": "DV",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4545",
+			"name": "DV",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4550",
+			"name": "BG",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4550",
+			"name": "JDi",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4550",
+			"name": "BG",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4550",
+			"name": "JDi",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4560",
+			"name": "EC",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4560",
+			"name": "EC",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4618",
+			"name": "CH",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4618",
+			"name": "CH",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4651",
+			"name": "HS",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4651",
+			"name": "HS",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4652",
+			"name": "KM",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4652",
+			"name": "KM",
+			"term": "short spring",
+			"type": "tut",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4653",
+			"name": "EC",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4653",
+			"name": "EC",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4653",
+			"name": "JL",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4699",
+			"name": "CH",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4699",
+			"name": "CH",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4855",
+			"name": "CH",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 4855",
+			"name": "CH",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7021",
+			"name": "JA",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7030",
+			"name": "GC",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7030",
+			"name": "GC",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7110",
+			"name": "GC",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7110",
+			"name": "GC",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7110",
+			"name": "GC",
+			"term": "fall",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7121",
+			"name": "JA",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7140",
+			"name": "JA",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7140",
+			"name": "JA",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7210",
+			"name": "GC",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7210",
+			"name": "GC",
+			"term": "winter",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7220",
+			"name": "GC",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7220",
+			"name": "GC",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7230",
+			"name": "JA",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7230",
+			"name": "JA",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7230",
+			"name": "JA",
+			"term": "fall",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7345",
+			"name": "ML",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7345",
+			"name": "ML",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7345",
+			"name": "SM",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7345b",
+			"name": "ML",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7345b",
+			"name": "ML",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 1,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7345b",
+			"name": "SM",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7350",
+			"name": "MJ",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7350",
+			"name": "MJ",
+			"term": "winter",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7350b",
+			"name": "MJ",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7350b",
+			"name": "MJ",
+			"term": "short spring",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7520",
+			"name": "CSi",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7520",
+			"name": "CSi",
+			"term": "fall",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7530",
+			"name": "YAH",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7530",
+			"name": "YAH",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7530",
+			"name": "YAH",
+			"term": "fall",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7550",
+			"name": "AP",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7550",
+			"name": "AP",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7610",
+			"name": "JDi",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": "T",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7610",
+			"name": "JDi",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7610",
+			"name": "JDi",
+			"term": "fall",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7620",
+			"name": "CSi",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7620",
+			"name": "CSi",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7640",
+			"name": "DRm",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7640",
+			"name": "DRm",
+			"term": "winter",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7660",
+			"name": "RT",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7660",
+			"name": "RT",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7710",
+			"name": "BG",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7710",
+			"name": "BG",
+			"term": "fall",
+			"type": "lab",
+			"sets": 3,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7720",
+			"name": "DK",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7720",
+			"name": "DK",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7790",
+			"name": "JB",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7810",
+			"name": "AP",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7810",
+			"name": "AP",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7810",
+			"name": "AP",
+			"term": "fall",
+			"type": "tut",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7815",
+			"name": "JDi",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7815",
+			"name": "JDi",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7820",
+			"name": "DRm",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7820",
+			"name": "DRm",
+			"term": "fall",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7860",
+			"name": "EC",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7860",
+			"name": "EC",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7870",
+			"name": "GP",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7870",
+			"name": "GP",
+			"term": "winter",
+			"type": "lab",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7870",
+			"name": "CG",
+			"term": "winter",
+			"type": "lab",
+			"sets": 0.8,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7890",
+			"name": "JB",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7890b",
+			"name": "JB",
+			"term": "short spring",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 8300",
+			"name": "GC",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ENGR 3800",
+			"name": "DRm",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ENGR 3800",
+			"name": "DRm",
+			"term": "fall",
+			"type": "tut",
+			"sets": 2,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX 7880",
+			"name": "BG",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": null,
+			"percent": 1
+		},
+		{
+			"course": "ELEX1610",
+			"name": "JV",
+			"term": "fall",
+			"type": "lec",
+			"sets": 1,
+			"new": "T",
+			"percent": 1
+		},
+		{
+			"course": "ELEX1610",
+			"name": "JV",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX1610",
+			"name": "GP",
+			"term": "fall",
+			"type": "lab",
+			"sets": 1,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX2610",
+			"name": "JV",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": "T",
+			"percent": 1
+		},
+		{
+			"course": "ELEX2610",
+			"name": "JV",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": "P",
+			"percent": 1
+		},
+		{
+			"course": "ELEX2620",
+			"name": "JV",
+			"term": "winter",
+			"type": "lec",
+			"sets": 1,
+			"new": "T",
+			"percent": 1
+		},
+		{
+			"course": "ELEX2620",
+			"name": "JV",
+			"term": "winter",
+			"type": "lab",
+			"sets": 1,
+			"new": "P",
+			"percent": 1
+		}
+	],
+	"release": [
+		{
+			"name": "AM",
+			"term": "fall",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "AM",
+			"term": "winter",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "AM",
+			"term": "short spring",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "CG",
+			"term": "fall",
+			"type": "rel",
+			"hours": 2,
+			"descr": [
+				{
+					"descr": "LC meeting",
+					"hours": 1
+				},
+				{
+					"descr": "Purchasing",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "CG",
+			"term": "fall",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Significant lab setup & maintenance"
+			]
+		},
+		{
+			"name": "CG",
+			"term": "winter",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Purchasing",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "CG",
+			"term": "winter",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Significant lab setup & maintenance"
+			]
+		},
+		{
+			"name": "CG",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Purchasing",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "CG",
+			"term": "short spring",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Significant lab setup & maintenance"
+			]
+		},
+		{
+			"name": "RS",
+			"term": "fall",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "RS",
+			"term": "winter",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "RS",
+			"term": "short spring",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "SM",
+			"term": "fall",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Purchasing",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "SM",
+			"term": "fall",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "SM",
+			"term": "winter",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Purchasing",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "SM",
+			"term": "winter",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "SM",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Purchasing",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "SM",
+			"term": "short spring",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "TJ",
+			"term": "fall",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "TJ",
+			"term": "winter",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "TJ",
+			"term": "short spring",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "WZ",
+			"term": "fall",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "WZ",
+			"term": "winter",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "LC meeting",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "WZ",
+			"term": "winter",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "WZ",
+			"term": "short spring",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"Lab Maintenance"
+			]
+		},
+		{
+			"name": "AP",
+			"term": "fall",
+			"type": "rel",
+			"hours": 0.5,
+			"descr": [
+				{
+					"descr": "Capstone Beng",
+					"hours": 0.5
+				}
+			]
+		},
+		{
+			"name": "AP",
+			"term": "fall",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"School Research Cttee"
+			]
+		},
+		{
+			"name": "AP",
+			"term": "winter",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Capstone Beng",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "AP",
+			"term": "winter",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"School Research Ccty"
+			]
+		},
+		{
+			"name": "AP",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Capstone",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "AP",
+			"term": "short spring",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"School Research Ccty"
+			]
+		},
+		{
+			"name": "BG",
+			"term": "fall",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"FSA Tech Rep",
+				" School Research Cttee"
+			]
+		},
+		{
+			"name": "BG",
+			"term": "winter",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"FSA Tech Rep",
+				" School Research Ccty"
+			]
+		},
+		{
+			"name": "BG",
+			"term": "short spring",
+			"type": "note",
+			"hours": 0,
+			"descr": [
+				"FSA Tech Rep",
+				" School Research Ccty"
+			]
+		},
+		{
+			"name": "CSi",
+			"term": "fall",
+			"type": "rel",
+			"hours": 0.5,
+			"descr": [
+				{
+					"descr": "Capstone Beng",
+					"hours": 0.5
+				}
+			]
+		},
+		{
+			"name": "CSi",
+			"term": "winter",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Capstone Beng",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "CSi",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Capstone",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "CSh",
+			"term": "winter",
+			"type": "rel",
+			"hours": 2,
+			"descr": [
+				{
+					"descr": "ELEX2220 development",
+					"hours": 2
+				}
+			]
+		},
+		{
+			"name": "CH",
+			"term": "fall",
+			"type": "rel",
+			"hours": 0.5,
+			"descr": [
+				{
+					"descr": "Capstone Beng",
+					"hours": 0.5
+				}
+			]
+		},
+		{
+			"name": "CH",
+			"term": "fall",
+			"type": "leave",
+			"hours": 7.5,
+			"descr": [
+				"50% PD Leave"
+			]
+		},
+		{
+			"name": "CH",
+			"term": "winter",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Capstone Beng",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "CH",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 1,
+			"descr": [
+				{
+					"descr": "Capstone",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "DRm",
+			"term": "fall",
+			"type": "rel",
+			"hours": 7.5,
+			"descr": [
+				{
+					"descr": "BEng Phead",
+					"hours": 6
+				},
+				{
+					"descr": "CEAB",
+					"hours": 1.5
+				}
+			]
+		},
+		{
+			"name": "DRm",
+			"term": "winter",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "Beng Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "DRm",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "BEng Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "DK",
+			"term": "fall",
+			"type": "rel",
+			"hours": 6.5,
+			"descr": [
+				{
+					"descr": "QA coordinator Beng",
+					"hours": 2
+				},
+				{
+					"descr": "CEAB",
+					"hours": 4
+				},
+				{
+					"descr": "Capstone",
+					"hours": 0.5
+				}
+			]
+		},
+		{
+			"name": "DK",
+			"term": "fall",
+			"type": "leave",
+			"hours": 7.5,
+			"descr": [
+				"0.5 FTE position"
+			]
+		},
+		{
+			"name": "DK",
+			"term": "winter",
+			"type": "rel",
+			"hours": 3,
+			"descr": [
+				{
+					"descr": "QA coordinator Beng",
+					"hours": 2
+				},
+				{
+					"descr": "Capstone",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "DK",
+			"term": "winter",
+			"type": "leave",
+			"hours": 7.5,
+			"descr": [
+				"0.5 FTE position"
+			]
+		},
+		{
+			"name": "DK",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 3,
+			"descr": [
+				{
+					"descr": "QA coordinator",
+					"hours": 2
+				},
+				{
+					"descr": "Capstone",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "DK",
+			"term": "short spring",
+			"type": "leave",
+			"hours": 7.5,
+			"descr": [
+				"0.5 FTE position"
+			]
+		},
+		{
+			"name": "EC",
+			"term": "fall",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "Telecom Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "EC",
+			"term": "winter",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "Telecom Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "EC",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "Telecom Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "JB",
+			"term": "fall",
+			"type": "rel",
+			"hours": 2.5,
+			"descr": [
+				{
+					"descr": "Beng CC chair",
+					"hours": 1
+				},
+				{
+					"descr": "Cap co-ord",
+					"hours": 1
+				},
+				{
+					"descr": "Capstone",
+					"hours": 0.5
+				}
+			]
+		},
+		{
+			"name": "JB",
+			"term": "winter",
+			"type": "rel",
+			"hours": 3,
+			"descr": [
+				{
+					"descr": "Beng CC chair",
+					"hours": 1
+				},
+				{
+					"descr": "Cap co-ord",
+					"hours": 1
+				},
+				{
+					"descr": "Capstone",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "JB",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 3,
+			"descr": [
+				{
+					"descr": "Beng CC chair",
+					"hours": 1
+				},
+				{
+					"descr": "Cap co-ord",
+					"hours": 1
+				},
+				{
+					"descr": "Capstone",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "KM",
+			"term": "fall",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "Power Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "KM",
+			"term": "winter",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "Power Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "KM",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "Power Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "MJ",
+			"term": "fall",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "First Year Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "MJ",
+			"term": "winter",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "First Year Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "MJ",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "First Year Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "RT",
+			"term": "fall",
+			"type": "rel",
+			"hours": 9,
+			"descr": [
+				{
+					"descr": "Timetabling/exam",
+					"hours": 8.5
+				},
+				{
+					"descr": "Capstone",
+					"hours": 0.5
+				}
+			]
+		},
+		{
+			"name": "RT",
+			"term": "winter",
+			"type": "rel",
+			"hours": 9.5,
+			"descr": [
+				{
+					"descr": "Timetabling/exam",
+					"hours": 8.5
+				},
+				{
+					"descr": "Capstone",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "RT",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 9.5,
+			"descr": [
+				{
+					"descr": "Timetabling/exam sched",
+					"hours": 8.5
+				},
+				{
+					"descr": "Capstone",
+					"hours": 1
+				}
+			]
+		},
+		{
+			"name": "RR",
+			"term": "fall",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "A&I Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "RR",
+			"term": "winter",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "A&I Phead",
+					"hours": 6
+				}
+			]
+		},
+		{
+			"name": "RR",
+			"term": "short spring",
+			"type": "rel",
+			"hours": 6,
+			"descr": [
+				{
+					"descr": "A&I Phead",
+					"hours": 6
+				}
+			]
+		}
+	]
+}
